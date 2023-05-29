@@ -1,0 +1,418 @@
+.main{
+    width: 100%;
+}
+header{
+    background-color: rgb(6, 94, 6);
+    border-radius: 10px;
+    height: 100px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#name{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    position: absolute;
+    top: -40px;
+    left: 80px;
+   
+}
+#surname{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+#movies{
+    position: absolute;
+    top: 70px;
+    left:  400px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    opacity: 0.5;
+  
+}
+#slader{
+    position: absolute;
+    top: 70px;
+    left: 550px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+#contacts{
+    position: absolute;
+    top: 70px;
+    left: 800px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+  
+}
+h1{
+    text-align: center;
+}
+.name-movies{
+    display: flex;
+    justify-content: center;
+}
+#horror{
+    padding-right: 500px;
+}
+#drama{
+    padding-right: 500px;
+}
+.movie5{
+    position: absolute;
+    left: 0;
+    top: 300px;
+}
+.info5{
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+.movie6{
+    position: absolute;
+    left: 0px;
+    top: 800px;
+}
+.info6{
+    position: absolute;
+    left: 300px;
+    top: 800px;
+}
+.movie7{
+    position: absolute;
+    left: 0px;
+    top: 1300px;
+}
+.info7{
+    position: absolute;
+    left: 300px;
+    top: 1300px;
+}
+.movie8{
+    position: absolute;
+    left: 600px;
+    top: 300px;
+}
+.info8{
+    position: absolute;
+    left: 950px;
+    top: 300px;
+}
+.movie9{
+    position: absolute;
+    left: 600px;
+    top: 800px;
+}
+.info9{
+    position: absolute;
+    left: 950px;
+    top: 800px;
+}
+.movie10{
+    position: absolute;
+    left: 600px;
+    top: 1300px;
+}
+.info10{
+    position: absolute;
+    left: 950px;
+    top: 1300px;
+}
+.movie11{
+    position: absolute;
+    right:400px;
+    top: 300px;
+}
+.info11{
+    position: absolute;
+    right: 200px;
+    top: 300px;
+}
+.movie12{
+    position: absolute;
+    right:400px;
+    top: 800px;
+}
+.info12{
+    position: absolute;
+    right: 200px;
+    top: 800px;
+}
+@media (max-width:1024px) {
+    header {
+        background-color: rgb(6, 94, 6);
+        border-radius: 10px;
+        width: 1174px;
+        height: 100px;
+    }
+    #horror {
+        padding-right: 200px;
+    }
+    #drama {
+        padding-right: 200px;
+    }
+    .movie5 {
+        position: absolute;
+        left: 0;
+        top: 300px;
+        width: 200px;
+    }
+    .info5 {
+        position: absolute;
+        left: 230px;
+        top: 300px;
+        font-size: 12px;
+    }
+    .movie6 {
+        position: absolute;
+        left: 0px;
+        top: 800px;
+        width: 200px;
+    }
+    .info6 {
+        position: absolute;
+        left: 230px;
+        top: 800px;
+        font-size: 12px;
+    }
+    .movie7 {
+        position: absolute;
+        left: 0px;
+        top: 1300px;
+        width: 200px;
+    }
+    .info7 {
+        position: absolute;
+        left: 230px;
+        top: 1300px;
+        font-size: 12px;
+    }
+    .movie8 {
+        position: absolute;
+        left: 410px;
+        width: 200px;
+        top: 300px;
+    }
+    .info8 {
+        position: absolute;
+        left: 650px;
+        top: 300px;
+        font-size: 12px;
+    }
+    .movie9 {
+        position: absolute;
+        left: 410px;
+        width: 200px;
+        top: 800px;
+    }
+    .info9 {
+        position: absolute;
+        left: 650px;
+        top: 800px;
+        font-size: 12px;
+    }
+    .movie10 {
+        position: absolute;
+        left: 410px;
+        width: 200px;
+        top: 1300px;
+        
+    }
+    .info10 {
+        position: absolute;
+        left: 650px;
+        top: 1300px;
+        font-size: 12px;
+    }
+    .movie11 {
+        position: absolute;
+        right: 0px;
+        width: 200px;
+        top: 300px;
+    }
+    .info11 {
+        position: absolute;
+        top: 300px;
+        right: -150px;
+        font-size: 12px;
+    }
+    .movie12 {
+        position: absolute;
+        right: 0px;
+        width: 200px;
+        top: 800px;
+    }
+    .info12 {
+        position: absolute;
+        right: -150px;
+        font-size: 12px;
+    }
+  }
+  @media (max-width:768px) {
+    header {
+        background-color: rgb(6, 94, 6);
+        border-radius: 10px;
+        height: 100px;
+        width: 916px;
+    }
+    .movie5 {
+        position: absolute;
+        left: 0;
+        top: 300px;
+        width: 100px;
+    }
+    .info5 {
+        position: absolute;
+        left: 130px;
+        top: 300px;
+        font-size: 12px;
+    }
+    .movie6 {
+        position: absolute;
+        left: 0px;
+        top: 500px;
+        width: 100px;
+    }
+    .info6 {
+        position: absolute;
+        left: 130px;
+        top: 500px;
+        font-size: 12px;
+    }
+    .movie7 {
+        position: absolute;
+        left: 0px;
+        top: 700px;
+        width: 100px;
+    }
+    .info7 {
+        position: absolute;
+        left: 130px;
+        top: 700px;
+        font-size: 12px;
+    }
+    .movie8 {
+        position: absolute;
+        left: 310px;
+        width: 100px;
+        top: 300px;
+    }
+    .info8 {
+        position: absolute;
+        left: 450px;
+        top: 300px;
+        font-size: 12px;
+    }
+    .movie9 {
+        position: absolute;
+        left: 310px;
+        width: 100px;
+        top: 500px;
+    }
+    .info9 {
+        position: absolute;
+        left: 450px;
+        top: 500px;
+        font-size: 12px;
+    }
+    .movie10 {
+        position: absolute;
+        left: 310px;
+        width: 100px;
+        top: 700px;
+    }
+    .info10 {
+        position: absolute;
+        left: 450px;
+        top: 700px;
+        font-size: 12px;
+    }
+    .movie11 {
+        position: absolute;
+        right: 50px;
+        width: 100px;
+        top: 300px;
+    }
+    .info11 {
+        position: absolute;
+        top: 300px;
+        right: -110px;
+        font-size: 12px;
+    }
+    .movie12 {
+        position: absolute;
+        right: 50px;
+        width: 100px;
+        top: 500px;
+    }
+    .info12 {
+        position: absolute;
+        right: -110px;
+        font-size: 12px;
+        top: 500px;
+    }
+    #movies {
+        position: absolute;
+        top: 70px;
+        left: 300px;
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        opacity: 0.5;
+    }
+    #slader {
+        position: absolute;
+        top: 70px;
+        left: 450px;
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    #contacts {
+    position: absolute;
+    top: 70px;
+    left: 700px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+  }
+  @media (max-width:425px) {
+    .main {
+        width: 900px;
+    }
+    .movie11 {
+        position: absolute;
+        right: -300px;
+        width: 100px;
+        top: 300px;
+    }
+    .info11 {
+        position: absolute;
+        top: 300px;
+        right: -470px;
+        font-size: 12px;
+    }
+    .movie12 {
+        position: absolute;
+        right: -300px;
+        width: 100px;
+        top: 500px;
+    }
+    .info12 {
+        position: absolute;
+        top: 500px;
+        right: -470px;
+        font-size: 12px;
+    }
+  }
